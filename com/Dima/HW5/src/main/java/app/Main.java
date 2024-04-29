@@ -13,7 +13,7 @@ public class Main {
         if (revenue <= 10000) {
             tax = revenue * 0.025;
         } else if (revenue <= 25000) {
-            tax = 10000 * 0.025 + (revenue - 10000) * 0.043;
+            tax = revenue  * 0.043;
         } else if (revenue > 25000) {
             tax = revenue * 0.067;
         }
